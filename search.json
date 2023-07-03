@@ -1,0 +1,275 @@
+[
+  {
+    "objectID": "index.html#course-overview",
+    "href": "index.html#course-overview",
+    "title": "Tidy time series & forecasting in R",
+    "section": "Course Overview",
+    "text": "Course Overview\nIt is common for organizations to collect huge amounts of data over time, and existing time series analysis tools are not always suitable to handle the scale, frequency and structure of the data collected. In this workshop, we will look at some packages and methods that have been developed to handle the analysis of large collections of time series.\nOn day 1, we will look at the tsibble data structure for flexibly managing collections of related time series. We will look at how to do data wrangling, data visualizations and exploratory data analysis. We will explore feature-based methods to explore time series data in high dimensions. A similar feature-based approach can be used to identify anomalous time series within a collection of time series, or to cluster or classify time series. Primary packages for day 1 will be tsibble, lubridate and feasts (along with the tidyverse of course).\nDay 2 will be about forecasting. We will look at some classical time series models and how they are automated in the fable package. We will look at creating ensemble forecasts and hybrid forecasts, as well as some new forecasting methods that have performed well in large-scale forecasting competitions. Finally, we will look at forecast reconciliation, allowing millions of time series to be forecast in a relatively short time while accounting for constraints on how the series are related.\nThis workshop is part of the NYR 2023 event, and will run in-person at Columbia University on the 11-12th July 2023."
+  },
+  {
+    "objectID": "index.html#learning-objectives",
+    "href": "index.html#learning-objectives",
+    "title": "Tidy time series & forecasting in R",
+    "section": "Learning objectives",
+    "text": "Learning objectives\nAttendees will learn:\n\nHow to wrangle time series data with familiar tidy tools.\nHow to compute time series features and visualize large collections of time series.\nHow to select a good forecasting algorithm for your time series.\nHow to ensure forecasts of a large collection of time series are coherent."
+  },
+  {
+    "objectID": "index.html#instructor",
+    "href": "index.html#instructor",
+    "title": "Tidy time series & forecasting in R",
+    "section": "Instructor",
+    "text": "Instructor\n Mitchell O’Hara-Wild (he/him) is a PhD student at Monash University, creating new techniques and tools for forecasting large collections of time series with Rob Hyndman and George Athanasopoulos. He is the lead developer of the tidy time-series forecasting tools fable and feasts, and has co-developed the widely used forecast package since 2015. Mitchell also operates a data consultancy, and has worked on many forecasting projects that have supported decision making and planning for businesses and governments. He is an award-winning educator, and has taught applied forecasting at Monash University and various forecasting workshops around the world."
+  },
+  {
+    "objectID": "index.html#designer",
+    "href": "index.html#designer",
+    "title": "Tidy time series & forecasting in R",
+    "section": "Designer",
+    "text": "Designer\n\nRob J Hyndman is a Professor of Statistics in the Department of Econometrics and Business Statistics at Monash University, and an elected Fellow of both the Australian Academy of Science and the Academy of Social Sciences in Australia. He is the author of over 200 research papers and 5 books in statistical science. In 2007, he received the Moran medal from the Australian Academy of Science for his contributions to statistical research, especially in the area of statistical forecasting. In 2021, he received the Pitman medal from the Statistical Society of Australia. For over 30 years, Rob has maintained an active consulting practice, assisting hundreds of companies and organizations around the world. He has won awards for his research, teaching, consulting and graduate supervision.\nUnfortunately Rob is currently unable to travel and cannot instruct this workshop."
+  },
+  {
+    "objectID": "index.html#required-equipment",
+    "href": "index.html#required-equipment",
+    "title": "Tidy time series & forecasting in R",
+    "section": "Required equipment",
+    "text": "Required equipment\nPlease bring your own laptop capable of running R."
+  },
+  {
+    "objectID": "index.html#required-software",
+    "href": "index.html#required-software",
+    "title": "Tidy time series & forecasting in R",
+    "section": "Required software",
+    "text": "Required software\nTo be able to complete the exercises of this workshop, please install a suitable IDE (such as RStudio), a recent version of R (4.1+) and the following packages.\n\nTime series packages and extensions\n\nfpp3, sugrrants\n\ntidyverse packages and friends\n\ntidyverse, fpp3\n\n\nThe following code will install the main packages needed for the workshop.\ninstall.packages(c(\"tidyverse\",\"fpp3\", \"GGally\", \"sugrrants\"))\nPlease have the required software installed and pre-work completed before attending the workshop."
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "This work is licensed under a Creative Commons Attribution 4.0 International License."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Schedule",
+    "section": "",
+    "text": "Time\n\n\nSession\n\n\n\n\n\n\n\n\n\n09:00-09:30\n\n\nBackground\n\n\n\n\n\n\n\n09:30-10:30\n\n\nIntroduction to tsibbles\n\n\n\n\n\n\n\n10:30-11:00\n\n\nCoffee Break\n\n\n\n\n\n\n\n11:00-12:30\n\n\nTime series graphics\n\n\n\n\n\n\n\n12:30-13:30\n\n\nLunch Break\n\n\n\n\n\n\n\n13:30-14:15\n\n\nTransformations\n\n\n\n\n\n\n\n14:15-15:00\n\n\nSeasonality and trends\n\n\n\n\n\n\n\n15:00-15:30\n\n\nCoffee Break\n\n\n\n\n\n\n\n15:30-17:00\n\n\nTime series features\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "schedule.html#day-2",
+    "href": "schedule.html#day-2",
+    "title": "Schedule",
+    "section": "Day 2",
+    "text": "Day 2\n\n\n\n\n\n\n\n\nTime\n\n\nSession\n\n\n\n\n\n\n\n\n\n09:00-10:30\n\n\nIntroduction to forecasting\n\n\n\n\n\n\n\n10:30-11:00\n\n\nCoffee Break\n\n\n\n\n\n\n\n11:00-12:30\n\n\nExponential smoothing\n\n\n\n\n\n\n\n12:30-13:30\n\n\nLunch Break\n\n\n\n\n\n\n\n13:30-14:15\n\n\nARIMA models\n\n\n\n\n\n\n\n14:15-15:00\n\n\nDynamic regression\n\n\n\n\n\n\n\n15:00-15:30\n\n\nCoffee Break\n\n\n\n\n\n\n\n15:30-17:00\n\n\nHierarchical forecasting\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "sessions/break.html",
+    "href": "sessions/break.html",
+    "title": "Coffee Break",
+    "section": "",
+    "text": "Time for a coffee break!\nFeel free to ask me some questions, or simply enjoy the break."
+  },
+  {
+    "objectID": "sessions/day1/00_intro.html",
+    "href": "sessions/day1/00_intro.html",
+    "title": "Background",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "sessions/day1/01_tsibble.html",
+    "href": "sessions/day1/01_tsibble.html",
+    "title": "Introduction to tsibbles",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "sessions/day1/01_tsibble.html#lab-sessions",
+    "href": "sessions/day1/01_tsibble.html#lab-sessions",
+    "title": "Introduction to tsibbles",
+    "section": "Lab sessions",
+    "text": "Lab sessions\n\nLab Session 1\n\nDownload tourism.xlsx from http://robjhyndman.com/data/tourism.xlsx, and read it into R using read_excel() from the readxl package.\nCreate a tsibble which is identical to the tourism tsibble from the tsibble package.\nFind what combination of Region and Purpose had the maximum number of overnight trips on average.\nCreate a new tsibble which combines the Purposes and Regions, and just has total trips by State.\n\n\n\nLab Session 2\n\nCreate time plots of the following four time series: Bricks from aus_production, Lynx from pelt, Close from gafa_stock, Demand from vic_elec.\nUse help() to find out about the data in each series.\nFor the last plot, modify the axis labels and title."
+  },
+  {
+    "objectID": "sessions/day1/01b_break.html",
+    "href": "sessions/day1/01b_break.html",
+    "title": "Coffee Break",
+    "section": "",
+    "text": "Time for a coffee break!\nFeel free to ask me some questions, or simply enjoy the break."
+  },
+  {
+    "objectID": "sessions/day1/02_graphics.html",
+    "href": "sessions/day1/02_graphics.html",
+    "title": "Time series graphics",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "sessions/day1/02_graphics.html#lab-sessions",
+    "href": "sessions/day1/02_graphics.html#lab-sessions",
+    "title": "Time series graphics",
+    "section": "Lab sessions",
+    "text": "Lab sessions\n\nLab Session 3\n\nLook at the quarterly tourism data for the Snowy Mountains\nsnowy <- tourism |> filter(Region == \"Snowy Mountains\")\n\nUse autoplot(), gg_season() and gg_subseries() to explore the data.\nWhat do you learn?\n\nProduce a calendar plot for the pedestrian data from one location and one year.\n\n\n\nLab Session 4\nWe have introduced the following functions: gg_lag and ACF. Use these functions to explore the four time series: Bricks from aus_production, Lynx from pelt, Close price of Amazon from gafa_stock, Demand from vic_elec. Can you spot any seasonality, cyclicity and trend? What do you learn about the series?\n\n\nLab Session 5\nYou can compute the daily changes in the Google stock price in 2018 using\n\ndgoog <- gafa_stock |>\n  filter(Symbol == \"GOOG\", year(Date) >= 2018) |>\n  mutate(trading_day = row_number()) |>\n  update_tsibble(index=trading_day, regular=TRUE) |>\n  mutate(diff = difference(Close))\n\nDoes diff look like white noise?"
+  },
+  {
+    "objectID": "sessions/day1/02b_break.html",
+    "href": "sessions/day1/02b_break.html",
+    "title": "Lunch Break",
+    "section": "",
+    "text": "Time for a lunch break!\nFeel free to ask me some questions, or simply enjoy the break."
+  },
+  {
+    "objectID": "sessions/day1/03_transformations.html",
+    "href": "sessions/day1/03_transformations.html",
+    "title": "Transformations",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "sessions/day1/03_transformations.html#lab-sessions",
+    "href": "sessions/day1/03_transformations.html#lab-sessions",
+    "title": "Transformations",
+    "section": "Lab sessions",
+    "text": "Lab sessions\n\nLab Session 6\nConsider the GDP information in global_economy. Plot the GDP per capita for each country over time. Which country has the highest GDP per capita? How has this changed over time?\n\n\nLab Session 7\n\nFor the following series, find an appropriate Box-Cox transformation in order to stabilise the variance.\n\nUnited States GDP from global_economy\nSlaughter of Victorian “Bulls, bullocks and steers” in aus_livestock\nVictorian Electricity Demand from vic_elec.\nGas production from aus_production\n\nWhy is a Box-Cox transformation unhelpful for the canadian_gas data?"
+  },
+  {
+    "objectID": "sessions/day1/04_decomposition.html",
+    "href": "sessions/day1/04_decomposition.html",
+    "title": "Seasonality and trends",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "sessions/day1/04_decomposition.html#lab-sessions",
+    "href": "sessions/day1/04_decomposition.html#lab-sessions",
+    "title": "Seasonality and trends",
+    "section": "Lab sessions",
+    "text": "Lab sessions\n\nLab Session 8\n\nProduce the following decomposition\ncanadian_gas |>\n  STL(Volume ~ season(window=7) + trend(window=11)) |>\n  autoplot()\nWhat happens as you change the values of the two window arguments?\nHow does the seasonal shape change over time? [Hint: Try plotting the seasonal component using gg_season.]\nCan you produce a plausible seasonally adjusted series? [Hint: season_adjust is one of the variables returned by STL.]"
+  },
+  {
+    "objectID": "sessions/day1/04b_break.html",
+    "href": "sessions/day1/04b_break.html",
+    "title": "Coffee Break",
+    "section": "",
+    "text": "Time for a coffee break!\nFeel free to ask me some questions, or simply enjoy the break."
+  },
+  {
+    "objectID": "sessions/day1/05_features.html",
+    "href": "sessions/day1/05_features.html",
+    "title": "Time series features",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "sessions/day1/05_features.html#lab-sessions",
+    "href": "sessions/day1/05_features.html#lab-sessions",
+    "title": "Time series features",
+    "section": "Lab sessions",
+    "text": "Lab sessions\n\nLab Session 9\n\nUse GGally::ggpairs() to look at the relationships between the STL-based features. You might wish to change seasonal_peak_year and seasonal_trough_year to factors.\nWhich is the peak quarter for holidays in each state?\n\n\n\nLab Session 10\n\nUse a feature-based approach to look for outlying series in PBS.\nWhat is unusual about the series you identify as “outliers”."
+  },
+  {
+    "objectID": "sessions/day2/06_forecasting.html",
+    "href": "sessions/day2/06_forecasting.html",
+    "title": "Introduction to forecasting",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "sessions/day2/06_forecasting.html#lab-sessions",
+    "href": "sessions/day2/06_forecasting.html#lab-sessions",
+    "title": "Introduction to forecasting",
+    "section": "Lab sessions",
+    "text": "Lab sessions\n\nLab Session 11\n\nProduce forecasts using an appropriate benchmark method for household wealth (hh_budget). Plot the results using autoplot().\nProduce forecasts using an appropriate benchmark method for Australian takeaway food turnover (aus_retail). Plot the results using autoplot().\n\n\n\nLab Session 12\n\nCompute seasonal naïve forecasts for quarterly Australian beer production from 1992.\nTest if the residuals are white noise. What do you conclude?\n\n\n\nLab Session 13\n\nCreate a training set for household wealth (hh_budget) by withholding the last four years as a test set.\nFit all the appropriate benchmark methods to the training set and forecast the periods covered by the test set.\nCompute the accuracy of your forecasts. Which method does best?\nRepeat the exercise using the Australian takeaway food turnover data (aus_retail) with a test set of four years."
+  },
+  {
+    "objectID": "sessions/day2/06b_break.html",
+    "href": "sessions/day2/06b_break.html",
+    "title": "Coffee Break",
+    "section": "",
+    "text": "Time for a coffee break!\nFeel free to ask me some questions, or simply enjoy the break."
+  },
+  {
+    "objectID": "sessions/day2/07_ets.html",
+    "href": "sessions/day2/07_ets.html",
+    "title": "Exponential smoothing",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "sessions/day2/07_ets.html#lab-sessions",
+    "href": "sessions/day2/07_ets.html#lab-sessions",
+    "title": "Exponential smoothing",
+    "section": "Lab sessions",
+    "text": "Lab sessions\n\nLab Session 14\nTry forecasting the Chinese GDP from the global_economy data set using an ETS model.\nExperiment with the various options in the ETS() function to see how much the forecasts change with damped trend, or with a Box-Cox transformation. Try to develop an intuition of what each is doing to the forecasts.\n[Hint: use h=20 when forecasting, so you can clearly see the differences between the various options when plotting the forecasts.]\n\n\nLab Session 15\nFind an ETS model for the Gas data from aus_production and forecast the next few years.\n\nWhy is multiplicative seasonality necessary here?\nExperiment with making the trend damped. Does it improve the forecasts?"
+  },
+  {
+    "objectID": "sessions/day2/07b_break.html",
+    "href": "sessions/day2/07b_break.html",
+    "title": "Lunch Break",
+    "section": "",
+    "text": "Time for a lunch break!\nFeel free to ask me some questions, or simply enjoy the break."
+  },
+  {
+    "objectID": "sessions/day2/08_arima.html",
+    "href": "sessions/day2/08_arima.html",
+    "title": "ARIMA models",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "sessions/day2/08_arima.html#lab-sessions",
+    "href": "sessions/day2/08_arima.html#lab-sessions",
+    "title": "ARIMA models",
+    "section": "Lab sessions",
+    "text": "Lab sessions\n\nLab Session 16\nFor the United States GDP data (from global_economy):\n\nFit a suitable ARIMA model for the logged data.\nProduce forecasts of your fitted model. Do the forecasts look reasonable?\n\n\n\nLab Session 17\nFor the Australian tourism data (from tourism):\n\nFit a suitable ARIMA model for all data.\nProduce forecasts of your fitted models.\nCheck the forecasts for the “Snowy Mountains” and “Melbourne” regions. Do they look reasonable?"
+  },
+  {
+    "objectID": "sessions/day2/09_dynreg.html",
+    "href": "sessions/day2/09_dynreg.html",
+    "title": "Dynamic regression",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "sessions/day2/09_dynreg.html#lab-sessions",
+    "href": "sessions/day2/09_dynreg.html#lab-sessions",
+    "title": "Dynamic regression",
+    "section": "Lab sessions",
+    "text": "Lab sessions\n\nLab Session 18\nRepeat the daily electricity example, but instead of using a quadratic function of temperature, use a piecewise linear function with the “knot” around 20 degrees Celsius (use predictors Temperature & Temp2). How can you optimize the choice of knot?\nThe data can be created as follows.\n\nvic_elec_daily <- vic_elec |>\n  filter(year(Time) == 2014) |>\n  index_by(Date = date(Time)) |>\n  summarise(\n    Demand = sum(Demand)/1e3,\n    Temperature = max(Temperature),\n    Holiday = any(Holiday)\n  ) |>\n  mutate(\n    Temp2 = I(pmax(Temperature-20,0)),\n    Day_Type = case_when(\n      Holiday ~ \"Holiday\",\n      wday(Date) %in% 2:6 ~ \"Weekday\",\n      TRUE ~ \"Weekend\"\n    )\n  )\n\n\n\nLab Session 19\nRepeat Lab Session 18 but using all available data, and handling the annual seasonality using Fourier terms."
+  },
+  {
+    "objectID": "sessions/day2/09b_break.html",
+    "href": "sessions/day2/09b_break.html",
+    "title": "Coffee Break",
+    "section": "",
+    "text": "Time for a coffee break!\nFeel free to ask me some questions, or simply enjoy the break."
+  },
+  {
+    "objectID": "sessions/day2/10_hierarchical.html",
+    "href": "sessions/day2/10_hierarchical.html",
+    "title": "Hierarchical forecasting",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "sessions/day2/10_hierarchical.html#lab-sessions",
+    "href": "sessions/day2/10_hierarchical.html#lab-sessions",
+    "title": "Hierarchical forecasting",
+    "section": "Lab sessions",
+    "text": "Lab sessions\n\nLab Session 20\n\nPrepare aggregations of the PBS data by Concession, Type, and ATC1.\nUse forecast reconciliation with the PBS data, using ETS, ARIMA and SNAIVE models, applied to all but the last 3 years of data.\nWhich type of model works best?\nDoes the reconciliation improve the forecast accuracy?\nWhy doesn’t the reconciliation make any difference to the SNAIVE forecasts?"
+  },
+  {
+    "objectID": "sessions/template.html",
+    "href": "sessions/template.html",
+    "title": "{{title}}",
+    "section": "",
+    "text": "View slides in full screen"
+  },
+  {
+    "objectID": "sessions/template.html#lab-sessions",
+    "href": "sessions/template.html#lab-sessions",
+    "title": "{{title}}",
+    "section": "Lab sessions",
+    "text": "Lab sessions"
+  }
+]

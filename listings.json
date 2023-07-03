@@ -1,0 +1,24 @@
+[
+  {
+    "listing": "/schedule.html",
+    "items": [
+      "/sessions/day1/00_intro.html",
+      "/sessions/day1/01_tsibble.html",
+      "/sessions/day1/01b_break.html",
+      "/sessions/day1/02_graphics.html",
+      "/sessions/day1/02b_break.html",
+      "/sessions/day1/03_transformations.html",
+      "/sessions/day1/04_decomposition.html",
+      "/sessions/day1/04b_break.html",
+      "/sessions/day1/05_features.html",
+      "/sessions/day2/06_forecasting.html",
+      "/sessions/day2/06b_break.html",
+      "/sessions/day2/07_ets.html",
+      "/sessions/day2/07b_break.html",
+      "/sessions/day2/08_arima.html",
+      "/sessions/day2/09_dynreg.html",
+      "/sessions/day2/09b_break.html",
+      "/sessions/day2/10_hierarchical.html"
+    ]
+  }
+]
