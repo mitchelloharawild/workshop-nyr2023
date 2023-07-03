@@ -1,0 +1,93 @@
+---
+title: "Tidy time series & forecasting in R"
+---
+
+![](images/fable.svg){style="float:right;padding: 0 0 0 10px;" fig-alt="Fable Hex Logo" width="175"}
+
+## Course Overview
+
+It is common for organizations to collect huge amounts of data over time, and existing time series analysis tools are not always suitable to handle the scale, frequency and structure of the data collected. In this workshop, we will look at some packages and methods that have been developed to handle the analysis of large collections of time series.
+
+On day 1, we will look at the tsibble data structure for flexibly managing collections of related time series. We will look at how to do data wrangling, data visualizations and exploratory data analysis. We will explore feature-based methods to explore time series data in high dimensions. A similar feature-based approach can be used to identify anomalous time series within a collection of time series, or to cluster or classify time series. Primary packages for day 1 will be [tsibble](https://cran.r-project.org/package=tsibble), [lubridate](https://cran.r-project.org/package=lubridate) and [feasts](https://cran.r-project.org/package=feasts) (along with the [tidyverse](http://tidyverse.org) of course).
+
+Day 2 will be about forecasting. We will look at some classical time series models and how they are automated in the [fable](https://cran.r-project.org/package=fable) package. We will look at creating ensemble forecasts and hybrid forecasts, as well as some new forecasting methods that have performed well in large-scale forecasting competitions. Finally, we will look at forecast reconciliation, allowing millions of time series to be forecast in a relatively short time while accounting for constraints on how the series are related.
+
+This workshop is part of the [NYR 2023](https://rstats.ai/nyr/) event, and will run in-person at [Columbia University](Columbia University) on the 11-12th July 2023.
+
+## Learning objectives
+
+Attendees will learn:
+
+1. How to wrangle time series data with familiar tidy tools.
+2. How to compute time series features and visualize large collections of time series.
+3. How to select a good forecasting algorithm for your time series.
+4. How to ensure forecasts of a large collection of time series are coherent.
+
+# Educators
+
+## Instructor
+
+![](images/mitch.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Mitchell O'Hara-Wild" width="200"}
+[**Mitchell O'Hara-Wild**](https://mitchelloharawild.com/) (he/him) is a PhD student at [Monash University](https://www.monash.edu), creating new techniques and tools for forecasting large collections of time series with Rob Hyndman and George Athanasopoulos. He is the lead developer of the tidy time-series forecasting tools fable and feasts, and has co-developed the widely used forecast package since 2015. Mitchell also operates a data consultancy, and has worked on many forecasting projects that have supported decision making and planning for businesses and governments. He is an award-winning educator, and has taught applied forecasting at Monash University and various forecasting workshops around the world.
+
+
+<div align="center">
+<a href="https://www.mitchelloharawild.com"><img border="0" alt="Blog" src="https://assets.dryicons.com/uploads/icon/svg/4926/home.svg" width="35" height="35"></a>&ensp;
+<a href="https://github.com/mitchelloharawild"><img border="0" alt="Github" src="https://assets.dryicons.com/uploads/icon/svg/8312/cc33248a-e56e-4e7f-93f4-0e16350e5768.svg" width="35" height="35"></a>&ensp; 
+<a href="https://twitter.com/mitchoharawild"><img border="0" alt="Twitter" src="https://assets.dryicons.com/uploads/icon/svg/8385/c23f7ffc-ca8d-4246-8978-ce9f6d5bcc99.svg" width="35" height="35"></a>&ensp; 
+<a href="https://www.linkedin.com/in/mitchelloharawild/"><img border="0" alt="LinkedIn" src="https://assets.dryicons.com/uploads/icon/svg/8337/a347cd89-1662-4421-be90-58e5e8004eae.svg" width="35" height="35"></a>&ensp;&emsp;
+</div>
+
+## Designer
+
+![](images/rob.jpg){style="float:right;padding: 0 0 0 10px;" fig-alt="Headshot of Professor Rob Hyndman" width="200"}
+
+[**Rob J Hyndman**](https://robjhyndman.com/) is a Professor of Statistics in the [Department of Econometrics and Business Statistics](http://business.monash.edu/econometrics-and-business-statistics) at [Monash University](https://www.monash.edu), and an elected Fellow of both the [Australian Academy of Science](https://www.science.org.au/profile/rob-hyndman) and the [Academy of Social Sciences in Australia](https://socialsciences.org.au/academy-fellow/?sId=0032v00003JxrvjAAB). He is the author of over 200 research papers and 5 books in statistical science. In 2007, he received the [Moran medal](https://www.science.org.au/past-winners/2007-awardees#moran) from the Australian Academy of Science for his contributions to statistical research, especially in the area of statistical forecasting. In 2021, he received the [Pitman medal](https://www.statsoc.org.au/Pitman-Medal-Recipients) from the Statistical Society of Australia. For over 30 years, Rob has maintained an active consulting practice, assisting hundreds of companies and organizations around the world. He has won awards for his research, teaching, consulting and graduate supervision.
+
+**Unfortunately Rob is currently unable to travel and cannot instruct this workshop.**
+
+<div align="center">
+<a href="https://robjhyndman.com/"><img border="0" alt="Website" src="https://assets.dryicons.com/uploads/icon/svg/4926/home.svg" width="35" height="35"></a>&ensp;
+<a href="https://github.com/robjhyndman/"><img border="0" alt="Github" src="https://assets.dryicons.com/uploads/icon/svg/8312/cc33248a-e56e-4e7f-93f4-0e16350e5768.svg" width="35" height="35"></a>&ensp; 
+<a href="https://twitter.com/robjhyndman/"><img border="0" alt="Twitter" src="https://assets.dryicons.com/uploads/icon/svg/8385/c23f7ffc-ca8d-4246-8978-ce9f6d5bcc99.svg" width="35" height="35"></a>&ensp; 
+<a href="https://aus.social/@robjhyndman"><img border="0" alt="Twitter" src="resources/mastodon.svg" width="35" height="35"></a>&ensp;&emsp;
+</div>
+
+
+
+
+
+# Registration
+
+Registration is available at <https://rstats.ai/nyr>.
+
+Tickets to the workshop are sold separately from the conference.
+
+# Preparation
+
+The workshop will provide a quick-start overview of exploring time series data and producing forecasts. There is no need for prior experience in time series to get the most out of this workshop.
+
+It is expected that you are comfortable with writing R cod and using tidyverse packages including dplyr and ggplot2. If you are unfamiliar with writing R code or using the tidyverse, consider working through the learnr materials here: <https://learnr.numbat.space/>.
+
+Some familiarity with statistical concepts such as the mean, variance, quantiles, normal distribution, and regression would be helpful to better understand the forecasts, although this is not strictly necessary.
+
+## Required equipment
+
+Please bring your own laptop capable of running R.
+
+## Required software
+
+To be able to complete the exercises of this workshop, please install a suitable IDE (such as RStudio), a recent version of R (4.1+) and the following packages.
+
+-   **Time series packages and extensions**
+    -   fpp3, sugrrants
+-   **tidyverse packages and friends**
+    -   tidyverse, fpp3
+
+The following code will install the main packages needed for the workshop.
+
+```r
+install.packages(c("tidyverse","fpp3", "GGally", "sugrrants"))
+```
+
+Please have the required software installed and pre-work completed before attending the workshop.
