@@ -15,7 +15,7 @@ website:
   description: "Homepage for NYR 2023 time series workshop"
   site-url: "https://workshop.mitchelloharawild.com/nyr2023"
   
-  repo-url: https://github.com/mitchelloharawild/nyr2023
+  repo-url: https://github.com/mitchelloharawild/workshop-nyr2023
   repo-actions: [edit, issue]
 
   # opengraph: true
@@ -47,7 +47,7 @@ website:
       - icon: file-certificate
         href: license.qmd
       - icon: github
-        href: https://github.com/mitchelloharawild/nyr2023
+        href: https://github.com/mitchelloharawild/workshop-nyr2023
     left:
       - text: Sessions
         menu: 
